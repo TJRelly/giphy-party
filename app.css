@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Palanquin";
+  letter-spacing: .1rem;
+}
+
+:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  align-self: center;
+}
+
+body {
+  height: 100lvh;
+  background: rgb(68, 22, 121);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+  color: white;
+}
+
+form {
+  padding: 2rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+input {
+  font-size: 1.1rem;
+  color: rgba(68, 22, 121, 1);
+  padding: 0.75rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+input[type="text"] {
+  width: 25rem;
+}
+
+input[type="submit"] {
+  background: rgb(201, 21, 201);
+  color: white;
+  cursor: pointer;
+}
+
+input[type="button"] {
+  background: rgb(221, 11, 11);
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  padding: 1rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+  display: grid;
+  place-content: center;
+}
